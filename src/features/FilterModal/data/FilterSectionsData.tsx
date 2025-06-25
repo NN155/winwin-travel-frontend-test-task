@@ -46,11 +46,11 @@ export const getFilterSectionsData = (): FilterSectionData[] => [
 		category: 'popular',
 		options: [
 			{
-				id: '5stars',
+				id: '5stars2',
 				label: i18next.t('filter:preliminary.starsCount', { count: 5 })
 			},
 			{
-				id: '4stars',
+				id: '4stars2',
 				label: i18next.t('filter:preliminary.starsCount', { count: 4 })
 			},
 			{
@@ -58,12 +58,12 @@ export const getFilterSectionsData = (): FilterSectionData[] => [
 				label: i18next.t('filter:preliminary.breakfastIncluded')
 			},
 			{
-				id: 'distance3km',
+				id: 'distance3km2',
 				label: i18next.t('filter:preliminary.distanceToCenter', { distance: 3 })
 			},
 			{
-				id: 'distance3km2',
-				label: i18next.t('filter:preliminary.distanceToCenter', { distance: 3 })
+				id: 'freeBooking2',
+				label: i18next.t('filter:preliminary.freeBooking')
 			},
 			{
 				id: 'guestRating2',
@@ -91,7 +91,7 @@ export const getFilterSectionsData = (): FilterSectionData[] => [
 			{ id: 'breakfast', label: i18next.t('filter:amenities.breakfast') },
 			{ id: 'restaurant', label: i18next.t('filter:amenities.restaurant') },
 			{ id: 'swimmingPool', label: i18next.t('filter:amenities.swimmingPool') },
-			{ id: 'airConditioning', label: i18next.t('filter:amenities.spa') },
+			{ id: 'spa', label: i18next.t('filter:amenities.spa') },
 			{
 				id: 'gymFitnessRoom',
 				label: i18next.t('filter:amenities.gymFitnessRoom')
@@ -106,7 +106,7 @@ export const getFilterSectionsData = (): FilterSectionData[] => [
 				label: i18next.t('filter:amenities.childrensPlayground')
 			},
 			{ id: 'internet', label: i18next.t('filter:amenities.internet') },
-			{ id: 'spa', label: i18next.t('filter:amenities.security') },
+			{ id: 'security', label: i18next.t('filter:amenities.security') },
 			{ id: 'lift', label: i18next.t('filter:amenities.lift') },
 			{
 				id: 'ecoResponsibility',
@@ -127,12 +127,12 @@ export const getFilterSectionsData = (): FilterSectionData[] => [
 				id: 'entrance81cmWide',
 				label: i18next.t('filter:accessibility.entrance81cmWide')
 			},
-			{ id: 'parking', label: i18next.t('filter:accessibility.parking') },
+			{ id: 'parking2', label: i18next.t('filter:accessibility.parking') },
 			{
 				id: 'availabilityRamp',
 				label: i18next.t('filter:accessibility.availabilityRamp')
 			},
-			{ id: 'lift', label: i18next.t('filter:amenities.lift') },
+			{ id: 'lift2', label: i18next.t('filter:amenities.lift') },
 			{ id: 'handrails', label: i18next.t('filter:accessibility.handrails') }
 		],
 		columns: 3
@@ -156,7 +156,7 @@ export const getFilterSectionsData = (): FilterSectionData[] => [
 			},
 			{ id: 'iron', label: i18next.t('filter:roomFacilitiesItems.iron') },
 			{
-				id: 'internet',
+				id: 'internet2',
 				label: i18next.t('filter:roomFacilitiesItems.internet')
 			},
 			{
