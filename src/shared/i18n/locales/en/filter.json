@@ -1,118 +1,118 @@
 {
-    "sections": {
-        "preliminaryFilter": "Preliminary filter",
-        "popularFilters": "Popular filters",
-        "amenitiesAccommodation": "Amenities of the accommodation facility",
-        "amenitiesDisabilities": "Amenities for people with disabilities",
-        "roomFacilities": "Room facilities",
-        "roomFacilitiesDisabilities": "Room facilities for people with disabilities",
-        "nutrition": "Nutrition",
-        "reservationCancellation": "Reservation cancellation policy",
-        "prepayment": "Prepayment",
-        "formPayment": "Form of payment",
-        "specialOffers": "Special offers and discounts"
-    },
+	"sections": {
+		"preliminaryFilter": "Preliminary filter",
+		"popularFilters": "Popular filters",
+		"amenitiesAccommodation": "Amenities of the accommodation facility",
+		"amenitiesDisabilities": "Amenities for people with disabilities",
+		"roomFacilities": "Room facilities",
+		"roomFacilitiesDisabilities": "Room facilities for people with disabilities",
+		"nutrition": "Nutrition",
+		"reservationCancellation": "Reservation cancellation policy",
+		"prepayment": "Prepayment",
+		"formPayment": "Form of payment",
+		"specialOffers": "Special offers and discounts"
+	},
 
-    "preliminary": {
-        "distanceToCenter": "Distance to the center {{distance}} km",
-        "guestRating": "Guest rating {{rating}}+",
-        "hotels": "Hotels",
-        "starsCount": "{{count}} stars",
-        "breakfastIncluded": "Breakfast is included",
-        "freeBooking": "Free booking"
-    },
-    "amenities": {
-        "transferFromHotel": "Transfer from/to hotel",
-        "roundClockReception": "Round-the-clock reception",
-        "earlyCheckIn": "Early check-in",
-        "lateCheckIn": "Late check-in",
-        "petsAllowed": "Pets are allowed",
-        "parking": "Parking",
-        "breakfast": "Breakfast included",
-        "restaurant": "Restaurant",
-        "swimmingPool": "Swimming pool",
-        "gymFitnessRoom": "Gym/fitness room",
-        "conferenceRooms": "Conference rooms",
-        "smokingArea": "Smoking area",
-        "childrensPlayground": "Children's playground",
-        "internet": "Internet",
-        "spa": "Spa center/sauna",
-        "lift": "Lift",
-        "ecoResponsibility": "Eco-responsibility",
-        "security": "Security"
-    },
-    "accessibility": {
-        "entranceWithoutSteps": "Entrance without steps",
-        "entrance81cmWide": "Entrance 81 cm wide",
-        "parking": "Parking",
-        "availabilityRamp": "Availability of a ramp",
-        "handrails": "Handrails"
-    },
-    "roomFacilitiesItems": {
-        "bath": "Bath",
-        "shower": "Shower",
-        "coffeeMachine": "Coffee machine",
-        "kettle": "Kettle",
-        "fridge": "Fridge",
-        "kitchen": "Kitchen",
-        "airConditioning": "Air conditioning",
-        "iron": "Iron",
-        "internet": "Internet",
-        "underfloorHeating": "Underfloor heating",
-        "babyBed": "Baby bed",
-        "balcony": "Balcony",
-        "pets": "Pets allowed",
-        "workplace": "Workplace"
-    },
-    "accessibilityRoom": {
-        "mainDoorEntrance81cm": "Main door entrance width 81 cm",
-        "interiorDoors81cm": "Interior doors width 81 cm",
-        "absenceSteps": "Absence of steps",
-        "handrailToilet": "Handrail near the toilet",
-        "handrailShower": "Handrail in the shower",
-        "bathShowerChair": "Bath/shower chair",
-        "barrierFreeShower": "Barrier-free shower",
-        "lowWashbasin": "Low washbasin",
-        "highToiletBowl": "High toilet bowl",
-        "instructionsBraille": "Instructions in Braille",
-        "emergencyCard": "Emergency cord in the bathroom",
-        "emergencyBedside": "Emergency cord by the bedside"
-    },
-    "nutrition": {
-        "roomWithoutMeals": "Room without meals",
-        "breakfastIncluded": "Breakfast included",
-        "breakfastAndDinner": "Breakfast and dinner",
-        "breakfastLunchDinner": "Breakfast, lunch, dinner",
-        "allInclusive": "All inclusive",
-        "ultraAllInclusive": "Ultra all inclusive"
-    },
-    "reservationCancellation": {
-        "freeCancellationBeforeCheckIn": "Free cancellation before check-in",
-        "freeCancellationUpTo3Days": "Free cancellation up to 3 days before check-in",
-        "freeCancellationOneWeek": "Free cancellation one week before check-in",
-        "noPossibilityCancellation": "No possibility of cancellation"
-    },
-    "prepayment": {
-        "bookingWithoutCreditCard": "Booking without a credit card",
-        "bookingWithoutPrepayment": "Booking without prepayment",
-        "partialPrepayment": "Partial prepayment",
-        "fullPrepayment": "Full prepayment"
-    },
-    "formPayment": {
-        "paymentInCash": "Payment in cash",
-        "paymentByCard": "Payment by card"
-    },
-    "specialOffers": {
-        "discounts50": "Discounts of 50%",
-        "hotOffers": "Hot offers",
-        "cheapOptionsRelocation": "Cheap options for relocation"
-    },
-    "ui": {
-        "apply": "Apply",
-        "clearAllParameters": "Clear all parameters",
-        "applyNewFilter": "Apply new filter",
-        "useOldFilter": "Use old filter",
-        "doYouWantToApplyNewFilter": "Do you want to apply new filter",
-        "filter": "Filter"
-    }
+	"preliminary": {
+		"distanceToCenter": "Distance to the center {{distance}} km",
+		"guestRating": "Guest rating {{rating}}+",
+		"hotels": "Hotels",
+		"starsCount": "{{count}} stars",
+		"breakfastIncluded": "Breakfast is included",
+		"freeBooking": "Free booking"
+	},
+	"amenities": {
+		"transferFromHotel": "Transfer from/to hotel",
+		"roundClockReception": "Round-the-clock reception",
+		"earlyCheckIn": "Early check-in",
+		"lateCheckIn": "Late check-in",
+		"petsAllowed": "Pets are allowed",
+		"parking": "Parking",
+		"breakfast": "Breakfast included",
+		"restaurant": "Restaurant",
+		"swimmingPool": "Swimming pool",
+		"gymFitnessRoom": "Gym/fitness room",
+		"conferenceRooms": "Conference rooms",
+		"smokingArea": "Smoking area",
+		"childrensPlayground": "Children's playground",
+		"internet": "Internet",
+		"spa": "Spa center/sauna",
+		"lift": "Lift",
+		"ecoResponsibility": "Eco-responsibility",
+		"security": "Security"
+	},
+	"accessibility": {
+		"entranceWithoutSteps": "Entrance without steps",
+		"entrance81cmWide": "Entrance 81 cm wide",
+		"parking": "Parking",
+		"availabilityRamp": "Availability of a ramp",
+		"handrails": "Handrails"
+	},
+	"roomFacilitiesItems": {
+		"bath": "Bath",
+		"shower": "Shower",
+		"coffeeMachine": "Coffee machine",
+		"kettle": "Kettle",
+		"fridge": "Fridge",
+		"kitchen": "Kitchen",
+		"airConditioning": "Air conditioning",
+		"iron": "Iron",
+		"internet": "Internet",
+		"underfloorHeating": "Underfloor heating",
+		"babyBed": "Baby bed",
+		"balcony": "Balcony",
+		"pets": "Pets allowed",
+		"workplace": "Workplace"
+	},
+	"accessibilityRoom": {
+		"mainDoorEntrance81cm": "Main door entrance width 81 cm",
+		"interiorDoors81cm": "Interior doors width 81 cm",
+		"absenceSteps": "Absence of steps",
+		"handrailToilet": "Handrail near the toilet",
+		"handrailShower": "Handrail in the shower",
+		"bathShowerChair": "Bath/shower chair",
+		"barrierFreeShower": "Barrier-free shower",
+		"lowWashbasin": "Low washbasin",
+		"highToiletBowl": "High toilet bowl",
+		"instructionsBraille": "Instructions in Braille",
+		"emergencyCard": "Emergency cord in the bathroom",
+		"emergencyBedside": "Emergency cord by the bedside"
+	},
+	"nutrition": {
+		"roomWithoutMeals": "Room without meals",
+		"breakfastIncluded": "Breakfast included",
+		"breakfastAndDinner": "Breakfast and dinner",
+		"breakfastLunchDinner": "Breakfast, lunch, dinner",
+		"allInclusive": "All inclusive",
+		"ultraAllInclusive": "Ultra all inclusive"
+	},
+	"reservationCancellation": {
+		"freeCancellationBeforeCheckIn": "Free cancellation before check-in",
+		"freeCancellationUpTo3Days": "Free cancellation up to 3 days before check-in",
+		"freeCancellationOneWeek": "Free cancellation one week before check-in",
+		"noPossibilityCancellation": "No possibility of cancellation"
+	},
+	"prepayment": {
+		"bookingWithoutCreditCard": "Booking without a credit card",
+		"bookingWithoutPrepayment": "Booking without prepayment",
+		"partialPrepayment": "Partial prepayment",
+		"fullPrepayment": "Full prepayment"
+	},
+	"formPayment": {
+		"paymentInCash": "Payment in cash",
+		"paymentByCard": "Payment by card"
+	},
+	"specialOffers": {
+		"discounts50": "Discounts of 50%",
+		"hotOffers": "Hot offers",
+		"cheapOptionsRelocation": "Cheap options for relocation"
+	},
+	"ui": {
+		"apply": "Apply",
+		"clearAllParameters": "Clear all parameters",
+		"applyNewFilter": "Apply new filter",
+		"useOldFilter": "Use old filter",
+		"doYouWantToApplyNewFilter": "Do you want to apply new filter",
+		"filter": "Filter"
+	}
 }
