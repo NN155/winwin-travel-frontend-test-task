@@ -1,6 +1,7 @@
 import { create } from 'zustand'
 
 import { queryClient } from '@/query'
+import type { FilterType, SearchRequestFilter } from '@/shared/api/types'
 
 type ModalType = 'filter' | 'confirmation' | null
 
@@ -18,6 +19,7 @@ interface FilterState {
 	clearActiveFilters: () => void
 	resetDraftToActive: () => void
 	discardChanges: () => void
+	getSearchRequestFilters: () => SearchRequestFilter
 }
 
 export const useFilterStore = create<FilterState>(set => ({
@@ -76,5 +78,23 @@ export const useFilterStore = create<FilterState>(set => ({
 		set(state => ({
 			draftFilters: { ...state.activeFilters },
 			currentModal: null
-		}))
+		})),
+
+	//Converts active filters to the format required for search requests
+	getSearchRequestFilters: () => {
+		const state = useFilterStore.getState()
+		const result: SearchRequestFilter = []
+
+		Object.entries(state.activeFilters).forEach(([categoryId, optionIds]) => {
+			if (optionIds.length > 0) {
+				result.push({
+					id: categoryId,
+					type: 'OPTION' as FilterType,
+					optionsIds: optionIds
+				})
+			}
+		})
+
+		return result
+	}
 }))
